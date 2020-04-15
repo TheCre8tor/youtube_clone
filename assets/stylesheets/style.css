@@ -29,6 +29,11 @@
     width: 25%;
     background-color: #8f4545;
 }
+/* Each columns element styling */
+.menu_icon {
+    width: 24px;
+}
+/*Top header style declaration end here*/
 
 /* Main content declaration start here */
 .content {
