@@ -9,7 +9,7 @@
 /*Top header style declaration start here*/
 .top_header {
     height: 56px;
-    background-color: rgb(243, 198, 198);
+    background-color: #f3c6c6;
     overflow: hidden;
 }
 .column {
@@ -19,29 +19,29 @@
 }
 .logo_box {
     width: 25%;
-    background-color: red;
+    background-color: #ff0000;
 }
 .search_box {
     width: 50%;
-    background-color: rgb(241, 109, 109);
+    background-color: #f16d6d;
 }
 .link_box {
     width: 25%;
-    background-color: rgb(143, 69, 69);
+    background-color: #8f4545;
 }
 
 /* Main content declaration start here */
 .content {
     float: left;
     width: 70%;
-    height: 800px;
-    background-color: rgb(252, 217, 153);
+    height: 900px;
+    background-color: #fcd999;
 }
 .sidebar {
     float: left;
     width: 30%;
-    height: 800px;
-    background-color: rgb(255, 202, 104);
+    height: 900px;
+    background-color: #ffca68;
 }
 .page {
     overflow: hidden;
