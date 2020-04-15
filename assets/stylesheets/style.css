@@ -1,0 +1,48 @@
+/* Global CSS: Resetting style declaration */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -------------------------------- */
+
+/*Top header style declaration start here*/
+.top_header {
+    height: 56px;
+    background-color: rgb(243, 198, 198);
+    overflow: hidden;
+}
+.column {
+    float: left;
+    height: 50px;
+    margin: 3px 0%;
+}
+.logo_box {
+    width: 25%;
+    background-color: red;
+}
+.search_box {
+    width: 50%;
+    background-color: rgb(241, 109, 109);
+}
+.link_box {
+    width: 25%;
+    background-color: rgb(143, 69, 69);
+}
+
+/* Main content declaration start here */
+.content {
+    float: left;
+    width: 70%;
+    height: 800px;
+    background-color: rgb(252, 217, 153);
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 800px;
+    background-color: rgb(255, 202, 104);
+}
+.page {
+    overflow: hidden;
+}
