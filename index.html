@@ -5,28 +5,85 @@
         <meta charset="UTF-8" />
         <title>Youtube Clone</title>
         <link href="assets/stylesheets/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="top_header">
+            <!-- Top Left Container -->
             <div class="column top_left">
                 <a href="#"><img src="assets/images/menu.svg" alt=" " class="ultron_icon menu_icon" /></a>
                 <a href="#"><img src="assets/images/youtube_logo.svg" alt="Youtube Logo" class="ultron_icon" /></a>
             </div>
+            <!-- Search Box Container -->
             <div class="column search_container">
                 <div class="form_wrapper">
-                    <form action="#">
+                    <form action="#" class="search_input">
                         <input name="search" type="text" placeholder="Search"  />
                         <button type="button"><img src="assets/images/search.svg" alt="Search" /></button>
                     </form>
                 </div>
             </div>
-            <div class="column top_right"></div>
+            <!-- Top Right Container -->
+            <div class="column top_right">
+                <div class="hot_link">
+                    <a href="#"><img src="assets/images/create_video.svg" class="ultron_icon" /></a>
+                    <a href="#"><img src="assets/images/youtube_app.svg" class="ultron_icon" /></a>
+                    <a href="#"><img src="assets/images/notification.svg" class="ultron_icon" /></a>
+                    <p class="user ultron_icon"><a href="#">A</a></p>
+                </div>
+            </div>
         </div>
+        <!-- Top Header ends here -->
 
         <div class="page">
-            <div class="content"></div>
-            <div class="sidebar"></div>
+            <!-- Content section start here -->
+            <div class="main">
+                <div class="content">
+                    <!-- Main video & informations -->
+                    <div class="video_container">
+                        <video src="assets/video/Contributing to Open Source Part I_ The Easy Way.mp4" width="100%" controls preload="auto"> You can <a href="assets/video/Contributing to Open Source Part I_ The Easy Way.mp4" download>Download</a> the mp4 file here </video>
+                        <h1>Contributing to Open Source Part 1: The Easy Way</h1>
+                        <div class="social_box">
+                            <div class="views_time">
+                                <p>55,745 views <time><span>&middot;</span>Feb 27, 2014</time></p>
+                            </div>
+                            <div class="social_links">
+                                <div class="links_container">
+                                    <p class="social_column"><a href="#"><img src="assets/images/like.svg" alt=" " class="ultron_icon2" /></a> <span>412</span> </p>
+                                    <p class="social_column"><a href="#"><img src="assets/images/dislike.svg" alt=" " class="ultron_icon2" /></a> 17 </p>
+                                    <p class="social_column"><a href="#"><img src="assets/images/share.svg" alt=" " class="ultron_icon2" /></a> share </p>
+                                    <p class="social_column"><a href="#"><img src="assets/images/save.svg" alt=" " class="ultron_icon2" /></a> save </p>
+                                    <p class="social_column"><a href="#"><img src="assets/images/more.svg" alt=" " class="ultron_icon menu_icon" /></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Brief Information Section -->
+                    <div class="brief_info">
+                        <div class="brief_contain">
+                            <img src="assets/images/odin_logo.svg" alt="The Odin Logo" class="odin_logo" />
+                            <div class="creator_data">
+                                <div class="creatorData_contain">
+                                    <a class="creator_name">The Odin Project</a><br />
+                                    <a class="subscriber">956 subscribers</a>
+                                </div>
+
+                                <div clas="subBtn_contain">
+                                    <button class="subBtn">subscribe</button>
+                                </div>
+                            </div>
+                            
+                            <p class="project_desc">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open 
+                            <br /><button class="showMoreBtn">show more</button></p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Content section ends here -->
+
+                <div class="sidebar"></div>
+            </div>
         </div>
         
     </body>
