@@ -115,12 +115,15 @@ body {
 }
 .sidebar {
     float: left;
-    width: 30%;
-    height: 1000px;
-    background-color: #ffca68;
+    width: 27%;
+    padding-left: 30px;
+    padding-right: 15px;
 }
 
 /* Main video & informations declaration start here */
+.main {
+    margin-top: 20px;
+}
 .video_container video {
     width: 100%;
     outline: none;
@@ -146,8 +149,10 @@ body {
 .views_time p {
     float: left;
 }
-.views_time span {
-    margin: 0px 7px 0px 10px;
+.views_time span {          /* Bullet style declaration */
+    font-weight: 600;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .social_links {
     float:right;
@@ -428,3 +433,102 @@ body {
 /* Reuseable Commenter Style Declaration end here */
 
 /* Sidebar/Aside Style Declaration start here */
+.up_next {
+    overflow: hidden;
+}
+.upcoming {
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-top: 1.5px;
+
+}
+.tuggle {
+    float: right;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.tuggle_button {
+    float: left;
+    height: 22px;
+}
+.auto {
+    float: left;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+/* Main Sidebar content start here */
+.sidebar_image{
+    float: left;
+    border-radius: 3px;
+    width: 168px;
+}
+.advert_heading {
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.anchor_content a {
+    float: left;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.anchor_content {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.author_name p {
+    float: left;
+    color: #606060;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+.author_name {
+    padding-top: 5px;
+}
+.image_container {
+    overflow: hidden;
+    margin-top: 15px;
+}
+.verified {
+    width: 13px;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+.advert_rating {
+    font-size: 13px;
+    padding-top: 2px;
+}
+.advert_rating p {
+    float: left;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+}
+.advert_rating span {           /* Bullet Style declaration */
+    font-weight: 600;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.advert_divider {
+    border-bottom: 1px solid #d4d4d4;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.image_gap {
+    margin-top: 8px;
+}
+.new_advert {
+    font-size: 11px;
+    color: #525252;
+    font-family: "Roboto", sans-serif;
+    margin-top: 2px;
+    background-color: #ccc;
+    width: 30px;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    border-radius: 2px;
+}
