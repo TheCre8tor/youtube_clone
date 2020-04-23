@@ -9,6 +9,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    width: 100%;
 }
 /*Top header style declaration start here*/
 .top_header {
@@ -115,7 +116,7 @@ body {
 }
 .sidebar {
     float: left;
-    width: 27%;
+    width: 30%;
     padding-left: 30px;
     padding-right: 15px;
 }
